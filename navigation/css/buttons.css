@@ -1,0 +1,51 @@
+#franz-forward,
+#franz-back {
+    iposition: fixed;
+    iz-index: 100000;
+    ibottom: 0;
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    pointer-events: all;
+}
+
+#franz-forward:hover,
+#franz-back:hover {
+    background-color: lightblue;
+}
+
+#comfranz-back {
+    left: 0;
+}
+
+#cmofranz-forward {
+    right: 0;
+}
+
+#franz-nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 100000;
+    pointer-events: none;
+}
+
+#franz-url {
+    flex: 1;
+    pointer-events: none;
+    text-align: center;
+}
+
+#franz-url div {
+    background-color: white;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    pointer-events: all;
+}
+
+#franz-url div input {
+    width: 100%;
+    border: none;
+}
